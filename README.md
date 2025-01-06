@@ -5,6 +5,7 @@ ABOUT: CarDekho is an online automotive marketplace that helps users buy, sell, 
 OBJECTIVE: My aim is to enhance the customer experience and streamline the pricing process by leveraging machine learning. I have created an accurate and user-friendly streamlit tool that predicts the prices of used cars based on various features. This tool should be deployed as an interactive web application for both customers and sales representatives to use seamlessly.
 
 DOCUMENTATION(METHODOLOGY):
+                        
                         STEP 1) By received Unstructed dataset,i have converted that to Structed Format.The dataset provided of cities namely Chennai, Bangalore, Delhi, Kolkata, Hyderabad, Jaipur is in list of dictionary form, i have converted that to DataFrame by various techniques like looping,ast etc(ast=Abstract Syntax Tree), finally combined all cities dataset into single dataset(by using concat)
                        
                         Step 2) Data cleaning(changing datatype, removing null values, removing symbols, removed unwanted columns). In this i have handed null values in Categorical and Numerical columns. For numerical columns, use techniques like mean, median, or mode imputation. For categorical columns, use mode imputation or create a new category for missing values. (Mean- When data is Normally Distributed, Median- When Data is Skewed, Mode-appears most frequently in the dataset.
